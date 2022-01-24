@@ -1,0 +1,23 @@
+{
+  "name": "ts_cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "npx cypress open",
+    "cypress:run": "npx cypress run --spec ./cypress/integration/my_tests/examples-test.spec.ts --env allure=true",
+    "allure:report": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.23.0",
+    "allure-commandline": "^2.17.2",
+    "cypress": "^9.3.1",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  }
+}

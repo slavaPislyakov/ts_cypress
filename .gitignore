@@ -6,4 +6,5 @@ allure-report/
 cypress/videos
 cypress/screenshots
 cypress/integration/1-getting-started
-cypress/integration/2-advanced-examples
+#cypress/integration/2-advanced-examples
+cypress/integration/my_tests
